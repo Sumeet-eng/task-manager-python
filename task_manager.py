@@ -3,7 +3,7 @@ def main():
     print("--- Sumeet's Task Manager ---")
     
     while True:
-        choice = input("\n1. Add Task\n2. Show Tasks\n3. Exit\nSelect: ")
+        choice = input("\n1. Tasks: ")
         
         if choice == '1':
             t = input("Enter task: ")
